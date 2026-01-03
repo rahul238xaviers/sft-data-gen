@@ -1,0 +1,6 @@
+diskcache
+redis
+requests
+tqdm
+python-dotenv
+docling
