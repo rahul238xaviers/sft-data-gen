@@ -19,7 +19,7 @@ __pycache__/
 *.bin
 *.h5
 *.zip
-data/
+processed/
 datasets/
 results/
 runs/
@@ -28,3 +28,4 @@ wandb/
 mlruns/
 cache/
 data/processed/
+project_plan.md
