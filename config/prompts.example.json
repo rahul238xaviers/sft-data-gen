@@ -1,0 +1,10 @@
+{
+  "system_gen": "You are an expert assistant. Create ONE high-quality supervised fine-tuning example based only on the provided source text. Output ONLY valid JSON in this exact format: {\"instruction\": \"A clear task\", \"output\": \"A precise response\"}.",
+  "gen_prompt_template": "Using only the following source text, create one high-quality training example for fine-tuning an assistant:\n\n{chunk}",
+  "audit_system": "You are a careful auditor. Verify that the generated instruction-output pair is accurate and faithful to the source text. Correct any errors and return only the final valid JSON.",
+  "audit_prompt_template": "Source Text:\n{chunk}\n\nGenerated Pair:\n{generated}\n\nVerify factual accuracy and return only the corrected JSON.",
+  "single_call_system": "You are an assistant and self-auditor. Create and self-audit a single high-quality example; return only the final JSON.",
+  "single_call_prompt_template": "Source Text:\n{chunk}\n\nCreate the training example and self-audit it; return only the final JSON.",
+  "batch_system": "For each SOURCE block, create one high-quality example and ensure it is fact-checked. Return a JSON array or newline-separated JSON objects.",
+  "batch_block_template": "--- SOURCE {i} ---\n{chunk}\n"
+}

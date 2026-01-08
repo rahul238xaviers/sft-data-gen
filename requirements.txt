@@ -4,3 +4,8 @@ requests
 tqdm
 python-dotenv
 docling
+PyMuPDF
+pdfminer.six
+easyocr
+onnxruntime
+opencv-python-headless

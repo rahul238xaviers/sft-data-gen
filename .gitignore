@@ -29,3 +29,7 @@ mlruns/
 cache/
 data/processed/
 project_plan.md
+# Local prompts — avoid checking private prompts into the repository
+config/prompts.json
+config/prompt.local.json
+fine-tuned-model
