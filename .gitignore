@@ -32,4 +32,7 @@ project_plan.md
 # Local prompts — avoid checking private prompts into the repository
 config/prompts.json
 config/prompt.local.json
+data/trained/*.jsonl
 fine-tuned-model
+data/trained/archive
+*.private.*

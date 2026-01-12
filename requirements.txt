@@ -1,11 +1,26 @@
+# Core utilities
 diskcache
 redis
 requests
 tqdm
 python-dotenv
+dotenv
+
+# Jupyter notebook support
+ipykernel
+
+# PDF processing & OCR
 docling
 PyMuPDF
 pdfminer.six
 easyocr
 onnxruntime
 opencv-python-headless
+
+# ML/Training (for supervised_fine_tuning.ipynb)
+torch
+transformers
+datasets
+peft
+bitsandbytes
+accelerate
