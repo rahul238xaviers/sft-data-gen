@@ -24,3 +24,9 @@ datasets
 peft
 bitsandbytes
 accelerate
+
+# Model deployment & GGUF conversion (for deploy_model.ipynb)
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+gguf>=0.1.0
+numpy>=1.24.0
